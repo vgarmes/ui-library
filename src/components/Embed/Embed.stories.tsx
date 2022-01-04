@@ -12,6 +12,6 @@ const Template: ComponentStory<typeof Embed> = (args) => <Embed {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   src: 'https://www.w3docs.com/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf',
-  width: 500,
-  height: 500,
+  width: '500px',
+  height: '500px',
 };
