@@ -25,6 +25,7 @@
     "@types/react": "^17.0.38",
     "@types/styled-components": "^5.1.19",
     "@types/styled-system": "^5.1.14",
+    "@types/styled-system__css": "^5.0.16",
     "@types/styled-system__should-forward-prop": "^5.1.2",
     "babel-loader": "^8.2.3",
     "react": "^17.0.2",
@@ -45,8 +46,8 @@
   "peerDependencies": {},
   "dependencies": {
     "@emotion/styled": "^11.6.0",
+    "@styled-system/css": "^5.1.5",
     "@styled-system/should-forward-prop": "^5.1.5",
-    "styled-components": "^5.3.3",
     "styled-system": "^5.1.5"
   }
 }
