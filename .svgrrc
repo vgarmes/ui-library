@@ -1,0 +1,17 @@
+{
+  "icon": true,
+  "typescript": true,
+  "ref": true,
+  "svgProps": { "focusable": true },
+  "jsx": {
+    "babelConfig": {
+      "plugins": [
+        ["@svgr/babel-plugin-remove-jsx-attribute",
+          {
+            "elements": ["svg"],
+            "attributes": ["id", "className"]
+          }
+      ]]
+    }
+  }
+}
